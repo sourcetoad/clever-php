@@ -277,6 +277,7 @@ class Student implements ModelInterface, ArrayAccess
     const ELL_STATUS_EMPTY = '';
     const GENDER_M = 'M';
     const GENDER_F = 'F';
+    const GENDER_X = 'X';
     const GENDER_EMPTY = '';
     const GRADE__1 = '1';
     const GRADE__2 = '2';
@@ -379,6 +380,7 @@ class Student implements ModelInterface, ArrayAccess
         return [
             self::GENDER_M,
             self::GENDER_F,
+            self::GENDER_X,
             self::GENDER_EMPTY,
         ];
     }
@@ -1339,5 +1341,3 @@ class Student implements ModelInterface, ArrayAccess
         return json_encode(ObjectSerializer::sanitizeForSerialization($this));
     }
 }
-
-
