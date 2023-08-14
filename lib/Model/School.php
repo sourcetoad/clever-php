@@ -239,10 +239,16 @@ class School implements ModelInterface, ArrayAccess
     const HIGH_GRADE__10 = '10';
     const HIGH_GRADE__11 = '11';
     const HIGH_GRADE__12 = '12';
+    const HIGH_GRADE__13 = '13';
     const HIGH_GRADE_PRE_KINDERGARTEN = 'PreKindergarten';
+    const HIGH_GRADE_TRANSITIONAL_KINDERGARTEN = 'TransitionalKindergarten';
     const HIGH_GRADE_KINDERGARTEN = 'Kindergarten';
+    const HIGH_GRADE_INFANT_TODDLER = 'InfantToddler';
+    const HIGH_GRADE_PRE_SCHOOL = 'Preschool';
     const HIGH_GRADE_POST_GRADUATE = 'PostGraduate';
+    const HIGH_GRADE_UNGRADED = 'Ungraded';
     const HIGH_GRADE_OTHER = 'Other';
+    const HIGH_GRADE_BLANK = '';
     const LOW_GRADE__1 = '1';
     const LOW_GRADE__2 = '2';
     const LOW_GRADE__3 = '3';
@@ -255,10 +261,16 @@ class School implements ModelInterface, ArrayAccess
     const LOW_GRADE__10 = '10';
     const LOW_GRADE__11 = '11';
     const LOW_GRADE__12 = '12';
+    const LOW_GRADE__13 = '13';
     const LOW_GRADE_PRE_KINDERGARTEN = 'PreKindergarten';
+    const LOW_GRADE_TRANSITIONAL_KINDERGARTEN = 'TransitionalKindergarten';
     const LOW_GRADE_KINDERGARTEN = 'Kindergarten';
+    const LOW_GRADE_INFANT_TODDLER = 'InfantToddler';
+    const LOW_GRADE_PRE_SCHOOL = 'Preschool';
     const LOW_GRADE_POST_GRADUATE = 'PostGraduate';
+    const LOW_GRADE_UNGRADED = 'Ungraded';
     const LOW_GRADE_OTHER = 'Other';
+    const LOW_GRADE_BLANK = '';
     
 
     
@@ -282,10 +294,16 @@ class School implements ModelInterface, ArrayAccess
             self::HIGH_GRADE__10,
             self::HIGH_GRADE__11,
             self::HIGH_GRADE__12,
+            self::HIGH_GRADE__13,
             self::HIGH_GRADE_PRE_KINDERGARTEN,
+            self::HIGH_GRADE_TRANSITIONAL_KINDERGARTEN,
             self::HIGH_GRADE_KINDERGARTEN,
+            self::HIGH_GRADE_INFANT_TODDLER,
+            self::HIGH_GRADE_PRE_SCHOOL,
             self::HIGH_GRADE_POST_GRADUATE,
+            self::HIGH_GRADE_UNGRADED,
             self::HIGH_GRADE_OTHER,
+            self::HIGH_GRADE_BLANK,
         ];
     }
     
@@ -309,10 +327,16 @@ class School implements ModelInterface, ArrayAccess
             self::LOW_GRADE__10,
             self::LOW_GRADE__11,
             self::LOW_GRADE__12,
+            self::LOW_GRADE__13,
             self::LOW_GRADE_PRE_KINDERGARTEN,
+            self::LOW_GRADE_TRANSITIONAL_KINDERGARTEN,
             self::LOW_GRADE_KINDERGARTEN,
+            self::LOW_GRADE_INFANT_TODDLER,
+            self::LOW_GRADE_PRE_SCHOOL,
             self::LOW_GRADE_POST_GRADUATE,
+            self::LOW_GRADE_UNGRADED,
             self::LOW_GRADE_OTHER,
+            self::LOW_GRADE_BLANK,
         ];
     }
     

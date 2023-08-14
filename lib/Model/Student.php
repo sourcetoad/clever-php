@@ -291,10 +291,16 @@ class Student implements ModelInterface, ArrayAccess
     const GRADE__10 = '10';
     const GRADE__11 = '11';
     const GRADE__12 = '12';
+    const GRADE__13 = '13';
     const GRADE_PRE_KINDERGARTEN = 'PreKindergarten';
+    const GRADE_TRANSITIONAL_KINDERGARTEN = 'TransitionalKindergarten';
     const GRADE_KINDERGARTEN = 'Kindergarten';
+    const GRADE_INFANT_TODDLER = 'InfantToddler';
+    const GRADE_PRE_SCHOOL = 'Preschool';
     const GRADE_POST_GRADUATE = 'PostGraduate';
+    const GRADE_UNGRADED = 'Ungraded';
     const GRADE_OTHER = 'Other';
+    const GRADE_BLANK = '';
     const HISPANIC_ETHNICITY_Y = 'Y';
     const HISPANIC_ETHNICITY_N = 'N';
     const HISPANIC_ETHNICITY_EMPTY = '';
@@ -405,10 +411,16 @@ class Student implements ModelInterface, ArrayAccess
             self::GRADE__10,
             self::GRADE__11,
             self::GRADE__12,
+            self::GRADE__13,
             self::GRADE_PRE_KINDERGARTEN,
+            self::GRADE_TRANSITIONAL_KINDERGARTEN,
             self::GRADE_KINDERGARTEN,
+            self::GRADE_INFANT_TODDLER,
+            self::GRADE_PRE_SCHOOL,
             self::GRADE_POST_GRADUATE,
+            self::GRADE_UNGRADED,
             self::GRADE_OTHER,
+            self::GRADE_BLANK,
         ];
     }
     
