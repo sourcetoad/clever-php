@@ -249,6 +249,7 @@ class Section implements ModelInterface, ArrayAccess
     const GRADE__10 = '10';
     const GRADE__11 = '11';
     const GRADE__12 = '12';
+    const GRADE__13 = '13';
     const GRADE_PRE_KINDERGARTEN = 'PreKindergarten';
     const GRADE_KINDERGARTEN = 'Kindergarten';
     const GRADE_POST_GRADUATE = 'PostGraduate';
@@ -287,6 +288,7 @@ class Section implements ModelInterface, ArrayAccess
             self::GRADE__10,
             self::GRADE__11,
             self::GRADE__12,
+            self::GRADE__13,
             self::GRADE_PRE_KINDERGARTEN,
             self::GRADE_KINDERGARTEN,
             self::GRADE_POST_GRADUATE,
